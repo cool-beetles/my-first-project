@@ -7,8 +7,6 @@ body {
   font-family: helvetica, roboto, arial, sans-serif;
   line-height: 1.88889;
   color: #555753;
- /* ↑ This #555753 tells me nothing. Try to user CSS variables: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables */
- /* Let's do it with all colors */
   background: #fff; 
   text-align: center;
   min-height: 100%;
