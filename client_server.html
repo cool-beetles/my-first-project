@@ -1,0 +1,91 @@
+<! DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <title>WebDev Starter Kit</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type='text/CSS'/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="top-bar">
+      <div class="top-bar-left-side">
+        <a href="./home.html">WebDev Starter Kit<a/>
+      </div>
+      <div class="top-bar-right-side">
+        <a class="link" href="./home.html">Home</a>
+        <a class="link" href="./client_server.html">Client-Server</a>
+        <a class="link">HTML & CSS & JS</a>
+        <a class="link">MVC</a>
+        <a class="link">SPA</a>
+        <a class="link">More!</a>
+      </div>
+    </nav>
+  </div>
+  <section class="gallery">
+    <div class="row">
+      <h1>Client-server</h1>
+      <h4>The whole story begins when you want to send some content.</h4>
+    </div>
+  </section>
+  <div class="row">
+    <h3>What is it all about?</h3>
+    <div class="text-left-side">
+      <p> The base of internet application is the client-server architecture. In this type of architecture client <strong>sends request</strong> for some particular service to server. Server perform some <strong>computing</strong> and returns appropriate response to client. Devices are connected via Internet- there could be multiple clients and servers instances, however as a rule, each device could play only one of these roles.
+      </p>
+      <p> In case of web application- <strong>internet browser is the client</strong>- it displays user interface, collect data from user inputs, performs a basic editing and send it to the server. <strong>Web server realizes clients request and sends html code</strong>, which is rendered by browser in order to display message to user.
+      </p>
+      <a class="button">Next step</a>  
+    </div>  
+  </div>
+  <div class="row">
+    <img class="client-server-image" src="WebDev_files/client-server.png">
+  </div>
+  <div class="main-wrapper">
+    <hr>
+    <div>
+      <h3> Useful links</h3>
+      <div class="row">
+        <div>
+          <img class="" src="WebDev_files/link-icon.png">
+          <br>
+          <a href="https://en.wikipedia.org/wiki/Client%E2%80%93server_model">Wikipedia</a>
+          <p>Article in Wikipedia.</p>
+        </div>
+        <div>
+          <img src="WebDev_files/link-icon.png">
+          <br>
+          <a href="http://www.pcmag.com/encyclopedia/term/39801/client-server">PC Magazine definition</a>
+          <p>Short definitions of different types of client-server architecture.</p>
+        </div>
+        <div>
+          <img src="WebDev_files/link-icon.png">
+          <br>
+          <a href="http://www.digimantra.com/tutorials/how-client-server-model-works-in-websites/">Client-server in websites.</a>
+          <p>Explanation of client-server in websites.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <hr>
+      <div>
+        <h3>Add new link</h3>
+        <form>
+          <input type="text" placeholder="Give link's title...">
+          <input type="text" placeholder="Give link's URL...">
+          <input type="text" placeholder="Give link's description...">
+          <input type="submit" class="button" value="Add">
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="bottom">
+    <p class="footer-description">This page was created as a training project, while learning the basics of web design. Original website: 
+    <a href='https://obscure-plateau-7441.herokuapp.com'>https://obscure-plateau-7441.herokuapp.com</a>.
+    </p>
+  </footer>
+</body>
+</html>

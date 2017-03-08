@@ -41,6 +41,16 @@ p {
   color: var(--grey);
 }
 
+.button {
+  background: green;
+  border: solid green;
+  color: white;
+  float: left;
+  padding: 5px 15px 5px 15px;
+  position: relative;
+  margin: 0 0 1.25rem;
+}
+
 h3 {
   color: black;
   margin-top: 0.2rem;
@@ -56,6 +66,7 @@ h1 {
   font-weight: normal;
   margin-bottom: 0;
   text-align: left;
+  color: white;
 }
 
 h4 {
@@ -65,10 +76,10 @@ h4 {
   width: 553.328px;
   position: relative;
   text-align: left;
+  color: white;
 }
 
 .row {
-  color: white;
   width: 1000px;
   margin: auto;
 }
@@ -213,4 +224,16 @@ a:hover {
   color: var(--grey);
   font-weight: normal;
   line-height: 1.6;
+}
+
+.text-left-side {
+  display: inline-block;
+  float: left;
+  width: 500px;
+}
+
+.client-server-image{
+  display: inline-block;
+  float: right;
+  width: 500px;
 }
