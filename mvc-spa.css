@@ -87,12 +87,6 @@ h4 {
   margin: auto;
 }
 
-.row-table {
-  width: 1000px;
-  margin: auto;
-  display: table;
-}
-
 .box-of-all {
   text-align: center;
   width: 1000px;
@@ -153,16 +147,6 @@ h4 {
   transition: border-color background-color 300ms ease-out;
 }
 
-.links-button {
-  color: var(--active-green);
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
-  text-align:justify; 
-  text-decoration: none;
-  transition: border-color background-color 300ms ease-out;
-}
-
 .gallery {
   background: url('WebDev_files/6.png') no-repeat center center;
   background-size: cover;
@@ -184,7 +168,7 @@ h4 {
   width: 553px;
 }
 
-.front-image{
+.image{
   display: inline-block;
   float: right;
   width: 386.656px;
@@ -211,6 +195,7 @@ h4 {
   color: var(--grey);
   font-weight: normal;
   line-height: 1.6;
+  text-align: center;
 }
 
 .add-links-box {
@@ -238,21 +223,5 @@ h4 {
   height: 2.3125rem;
   margin: 0 0 1rem 0;
   padding: 0.5rem;
-}
-
-.useful-links-box {
-  position: relative;
-  float: left;
-  text-align: justify;
-  padding: 0 0.9375rem 0 0.9375rem;
-}
-
-.description {
-  text-align: justify;
-  font-size: 1rem;
-  line-height: 1.6;
-  width: 303px;
-  color: black;
-  margin-bottom: 1.25rem;
 }
 

@@ -87,12 +87,6 @@ h4 {
   margin: auto;
 }
 
-.row-table {
-  width: 1000px;
-  margin: auto;
-  display: table;
-}
-
 .box-of-all {
   text-align: center;
   width: 1000px;
@@ -184,7 +178,7 @@ h4 {
   width: 553px;
 }
 
-.front-image{
+.image{
   display: inline-block;
   float: right;
   width: 386.656px;
@@ -211,6 +205,7 @@ h4 {
   color: var(--grey);
   font-weight: normal;
   line-height: 1.6;
+  text-align: center;
 }
 
 .add-links-box {
@@ -255,4 +250,3 @@ h4 {
   color: black;
   margin-bottom: 1.25rem;
 }
-
