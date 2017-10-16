@@ -5,7 +5,7 @@
   <title>WebDev Starter Kit</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/CSS" href="style.css">
+  <link rel="stylesheet" type="text/CSS" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 
@@ -19,37 +19,35 @@
         <a class="link" href="./home.html">Home</a>
         <a class="link" href="./client_server.html">Client-Server</a>
         <a class="link" href="./html-css-js.html">HTML & CSS & JS</a>
-        <a class="link" href="./mvc.html">MVC</a>
+        <a class="link-active" href="./mvc.html">MVC</a>
         <a class="link" href="./spa.html">SPA</a>
-        <a class="link-active" href="./more.html">More!</a>
+        <a class="link" href="./more.html">More!</a>
       </div>
     </nav>
   </div>
   <section class="gallery">
     <div class="row">
-      <h1>More!</h1>
-      <h4>Revolutionary concepts for time-changing applications.</h4>
+      <h1>MVC</h1>
+      <h4>Introducing some order to server processing.</h4>
     </div>
   </section>
    <div class="row">
     <h3 class="headline">What is it all about?</h3>
     <div class="text-left-side">
-      <p class="center-description">React.js and Flux were invented by Facebook and Instagram developers team and initially released in 2013. The main aim of these javascript libraries is to <strong> address performance challenges in large </strong> Single Page Applications. Facebook and Instagram applications can be considered as example of applications, which have to deal with data changed over the time. Therefore, solutions, which work for them can be applied also in other applications.
+      <p class="center-description">In case of web application, the main aim is to <strong> separate the user interface from business logic.</strong> This concept addresses client-server structure of this kind of software as well as backend and frontend diversity. A separation of visual part of application and its logic seems to be also reasonable because of fact that requirements of changes in interface and business logic can <strong>proceed independently</strong>.
       </p>
-      <p class="center-description"> Dealing with DOM rerender performance can be achieved by using tools and techniques available even in plain javascript. However, the React is offering solution in which all optimizations are done by default. In addition React suggests new approach to application structure. Instead of division- presentation-logic the main key for classification is logical domain. All of React revolutionary concepts are supported by Flux concept of unidirectional data flow. React and Flux together form full-aspects solution for client side of rich web applications.
+      <p class="center-description"> All data operations, starting with retrieving them from database and ending with some complicated algorithms are performed by the Model. The most important fact is that it is working only with information, it has no knowledge about presentation. The entire role of this component is to handle information input and output.
       </p>
-      <a class="button">Next step</a>  
+      <p class="center-description"> Everything, which is connected with presentation layer is encapsulated by the View. That include the DOM elements structure, the styling and browser scripts. In order to display correct content the View uses data from the Model, however the View itself has no power to manipulate the data.
+      </p>
+      <p class="center-description"> The most popular architectural pattern in web development is MVC. The role of <strong> connection </strong> between the Model and the View belongs to the Controller.
+      </p>
+      <a class="button" href="./spa.html">Next step</a>  
     </div>  
-    <img class="right-image" src="WebDev_files/flux-react.png">
+    <img class="right-image" src="images/mvc.png">
     <hr>
   <div class="main-wrapper">
     <h3 class="headline">Useful links</h3>
-    <div class="useful-links-box">
-      <img src="WebDev_files/link-icon.png">
-      <br>
-      <a class="links-button" href="https://obscure-plateau-7441.herokuapp.com/adsf">ad</a>
-      <p class="description">adf</p>
-    </div>
   </div>
     <hr>
     <div class="add-links-box">
