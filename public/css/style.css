@@ -2,7 +2,7 @@
   --light-grey: #555753;
   --dark-grey: #DDDDDD;
   --grey: #6f6f6f;
-  --navbar-grey: #333333;
+  --navbar-blue: #3d5a58;
   --green: #3C8D2F;
   --border-grey: #cccccc;
   --active-green: #0A4600;
@@ -94,7 +94,7 @@ h4 {
 }
 
 .top-bar {
-  background-color: var(--navbar-grey);
+  background-color: var(--navbar-blue);
   color: white;
   margin-bottom: 0;
   position: relative;
